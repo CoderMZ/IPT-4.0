@@ -1,8 +1,15 @@
+a
+{
+    text-decoration: none;
+}
 body
 {
     margin: 0px;
 }
-
+div
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .Layout-Flex
 {
     display:flex;
@@ -21,25 +28,24 @@ body
 .Navigation-Flex
 {
     display: flex;
-    width: 100%;
-    height: 50px;
-    background-color:black;
+    height: 55px;
+    background: rgb(21,255,0);
+    background: linear-gradient(90deg, rgba(21,255,0,1) 0%, rgba(124,0,255,1) 100%);
     justify-content: center;
 }
 .NavigationActive
 {
-    margin: 0px 50px;
+    margin: 5px 50px;
     font-size: 33px;
     text-decoration: none;
     color:white;
-    font-family:Arial, Helvetica, sans-serif;
 }
 .NavigationItem
 {
+    margin: 5px 0px;
     font-size: 33px;
     text-decoration: none;
     color:white;
-    font-family:Arial, Helvetica, sans-serif;
 }
 .NavigationActive:hover
 {
@@ -51,3 +57,110 @@ body
     font-size:34px;
     font-weight: bold;
 }
+.Teaser-Flex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+img.Large-Teaser
+{
+    height: 399.87px;
+    width: 300px;
+}
+div.Large-Teaser
+{
+    padding: 100px 50px;
+    font-size: 33px;
+    color:white;
+}
+.Large-Container-Teaser
+{
+    display:flex;
+    background: rgb(21,255,0);
+    background: linear-gradient(90deg, rgba(21,255,0,1) 0%, rgba(124,0,255,1) 100%);
+    width: auto;
+    margin: 100px 200px;
+}
+img.Small-Teaser
+{
+    height: 200px;
+    width: 280px;
+}
+div.Small-Teaser
+{
+    align-self: center;
+    padding: 10px 10px;
+    font-size: 20px;
+    color:white;
+}
+.Small-Container-Teaser
+{
+    display:flex;
+    flex-direction: column;
+    background: rgb(21,255,0);
+    background: linear-gradient(90deg, rgba(21,255,0,1) 0%, rgba(124,0,255,1) 100%);
+    width: auto;
+    margin: 20px 30px 50px 50px; 
+}
+.Footer
+{
+    height: 400px;
+    padding: 40px;
+    background: rgb(21,255,0);
+    background: linear-gradient(90deg, rgba(21,255,0,1) 0%, rgba(124,0,255,1) 100%);
+}
+.Footer > div {
+    display: flex;
+}
+
+.Footer-Object1
+{
+    height: 100%;
+    margin: 20px;
+    flex-grow: 1;
+    background-color:rgba(21,255,0,0.1);
+}
+.Footer-Object1 > div
+{   
+    text-align:center;
+    color:white;
+    Font-size:50px;
+}
+.Footer-Object1 > table
+{
+    width:100%;
+    font-size:30px;
+    color:white;
+}
+tr td
+{
+    border-bottom: 2px solid snow ;  
+}
+.Footer-Object1 tr:hover
+{
+    background-color: rgba(124,0,255,1);
+}
+.Footer-Object2
+{
+    height: 100%;
+    margin: 20px;
+    flex-grow: 1;
+    background-color:rgba(124,0,255,0.1);
+}
+.Footer-Object2 > div
+{
+    text-align:center;
+    color: white;
+    font-size:50px;
+}
+.Footer-Object2 > table
+{
+    width:100%;
+    font-size:30px;
+    color:white;
+}
+.Footer-Object2 tr:hover
+{
+    background-color: rgba(21,255,0,1);
+}
+
