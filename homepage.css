@@ -5,6 +5,7 @@ a
 body
 {
     margin: 0px;
+    background-color:rgb(50,50,50);
 }
 div
 {
@@ -28,8 +29,8 @@ div
 {
     display: flex;
     height: 55px;
-    background: rgb(21,255,0);
-    background: linear-gradient(90deg, rgba(21,255,0,1) 0%, rgba(124,0,255,1) 100%);
+    background: rgb(140,50,50);
+    background: linear-gradient(90deg, rgba(140,50,50,1) 0%, rgba(210,0,0,1) 50%, rgba(140,50,50,1) 100%);
     justify-content: center;
 }
 .NavigationItem
@@ -52,17 +53,17 @@ div
 img.Large-Teaser
 {
     height: 399.87px;
-    width: 300px;
+    width: 500px;
 }
 div.Large-Teaser-Title
 {
     text-align: center;
-    font-size: 42px;
+    font-size: 40px;
     color:white;
 }
 div.Large-Teaser
 {
-    font-size: 38px;
+    font-size: 30px;
     color:white;
 }
 .Large-Container-Teaser > div
@@ -72,12 +73,11 @@ div.Large-Teaser
 .Large-Container-Teaser
 {
     display:flex;
-    background: rgb(21,255,0);
-    background: linear-gradient(90deg, rgba(21,255,0,1) 0%, rgba(124,0,255,1) 100%);
+    background: rgb(140,50,50);
+    background: linear-gradient(90deg, rgba(140,50,50,1) 0%, rgba(210,0,0,1) 50%, rgba(140,50,50,1) 100%);
     width: auto;
     max-height: 400px;
     margin: 100px 200px;
-    overflow: hidden;
 }
 img.Small-Teaser
 {
@@ -88,15 +88,15 @@ div.Small-Teaser
 {
     align-self: center;
     padding: 10px 10px;
-    font-size: 24px;
+    font-size: 30px;
     color:white;
 }
 .Small-Container-Teaser
 {
     display:flex;
     flex-direction: column;
-    background: rgb(21,255,0);
-    background: linear-gradient(90deg, rgba(21,255,0,1) 0%, rgba(124,0,255,1) 100%);
+    background: rgb(140,50,50);
+    background: linear-gradient(90deg, rgba(140,50,50,1) 0%, rgba(210,0,0,1) 50%, rgba(140,50,50,1) 100%);
     width: 295px;
     height: 295px;
     margin: 20px 30px 50px 50px; 
@@ -106,8 +106,8 @@ div.Small-Teaser
 {
     height: 400px;
     padding: 40px;
-    background: rgb(21,255,0);
-    background: linear-gradient(90deg, rgba(21,255,0,1) 0%, rgba(124,0,255,1) 100%);
+    background: rgb(140,50,50);
+    background: linear-gradient(90deg, rgba(140,50,50,1) 0%, rgba(210,0,0,1) 50%, rgba(140,50,50,1) 100%);
 }
 .Footer > div {
     display: flex;
@@ -118,13 +118,13 @@ div.Small-Teaser
     height: 100%;
     margin: 20px;
     flex-grow: 1;
-    background-color:rgba(21,255,0,0.1);
+    background-color:rgba(110, 0, 0, 0.1);
 }
 .Footer-Object1 > div
 {   
     text-align:center;
     color:white;
-    Font-size:50px;
+    Font-size:40px;
 }
 .Footer-Object1 > table
 {
@@ -138,20 +138,20 @@ tr td
 }
 .Footer-Object1 tr:hover
 {
-    background-color: rgba(124,0,255,1);
+    background-color: rgba(210,0,0,1);
 }
 .Footer-Object2
 {
     height: 100%;
     margin: 20px;
     flex-grow: 1;
-    background-color:rgba(124,0,255,0.1);
+    background-color:rgba(110, 0, 0, 0.1);
 }
 .Footer-Object2 > div
 {
     text-align:center;
     color: white;
-    font-size:50px;
+    font-size:40px;
 }
 .Footer-Object2 > table
 {
@@ -161,7 +161,8 @@ tr td
 }
 .Footer-Object2 tr:hover
 {
-    background-color: rgba(21,255,0,1);
+    background-color: rgba(210,0,0,1);
+    cursor: pointer;
 }
 .Footer-Navigation
 {
@@ -175,4 +176,8 @@ tr td
     font-size: 30px;
     margin: 10px 20px;
 }
-
+#nohovereffect:hover
+{
+    background-color: transparent;
+    cursor: default;
+}
