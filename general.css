@@ -42,7 +42,7 @@ div
 }
 .NavigationItem:hover
 {
-    font-size:34px;
+    font-size: 34px;
     font-weight: bold;
 }
 .Teaser-Flex
@@ -68,7 +68,7 @@ div.Large-Teaser
 }
 .Large-Container-Teaser > div
 {
-    padding: 70px 50px;
+    padding: 50px 50px;
 }
 .Large-Container-Teaser
 {
@@ -122,6 +122,7 @@ div.Small-Teaser
 }
 .Footer-Object1 > div
 {   
+    margin: 10px 0px 0px;
     text-align:center;
     color:white;
     Font-size:40px;
@@ -149,6 +150,7 @@ tr td
 }
 .Footer-Object2 > div
 {
+    margin: 10px 0px 0px;   
     text-align:center;
     color: white;
     font-size:40px;
