@@ -1,11 +1,15 @@
+
 a
 {
+    color:white;
     text-decoration: none;
 }
 body
 {
     margin: 0px;
-    background-color:rgb(50,50,50);
+    background-color: grey;
+    background-image: url("/Pictures/Red_Nebula.jpg");
+    background-position: center;
 }
 div
 {
@@ -14,6 +18,7 @@ div
 .Layout-Flex
 {
     display: flex;
+    
 }
 .Header
 {
@@ -39,16 +44,19 @@ div
     font-size: 33px;
     text-decoration: none;
     color:white;
+    transition-duration: 500ms;
 }
 .NavigationItem:hover
 {
-    font-size:34px;
+    transition-duration: 500ms;
+    font-size: 34px;
     font-weight: bold;
 }
 .Teaser-Flex
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 img.Large-Teaser
 {
@@ -68,20 +76,31 @@ div.Large-Teaser
 }
 .Large-Container-Teaser > div
 {
-    padding: 70px 50px;
+    padding: 50px 50px;
 }
 .Large-Container-Teaser
 {
+    opacity: 0.8;
     display:flex;
     background: rgb(140,50,50);
     background: linear-gradient(90deg, rgba(140,50,50,1) 0%, rgba(210,0,0,1) 50%, rgba(140,50,50,1) 100%);
     width: auto;
     max-height: 400px;
     margin: 100px 200px;
+    transition-duration: 300ms;
+    transition-delay: 100ms;
 }
+.Large-Container-Teaser:hover
+{
+    opacity: 0.9;
+    transition-duration: 300ms;
+    transition-delay: 100ms;
+    transform:scale(1.1);
+}
+
 img.Small-Teaser
 {
-    height: 400px;
+    height: 300px;
     width: 300px;
 }
 div.Small-Teaser
@@ -89,18 +108,28 @@ div.Small-Teaser
     align-self: center;
     padding: 10px 10px;
     font-size: 30px;
-    color:white;
+    color:white;    
 }
 .Small-Container-Teaser
 {
+    opacity: 0.8;
     display:flex;
     flex-direction: column;
     background: rgb(140,50,50);
     background: linear-gradient(90deg, rgba(140,50,50,1) 0%, rgba(210,0,0,1) 50%, rgba(140,50,50,1) 100%);
     width: 295px;
     height: 295px;
-    margin: 20px 30px 50px 50px; 
+    margin: 20px 50px 50px 50px; 
     overflow: hidden;
+    transition-duration: 300ms;
+    transition-delay: 50ms;
+}
+.Small-Container-Teaser:hover
+{
+    opacity: 1;
+    transition-duration: 300ms;
+    transition-delay: 50ms;
+    transform: scale(1.1);
 }
 .Footer
 {
@@ -122,6 +151,7 @@ div.Small-Teaser
 }
 .Footer-Object1 > div
 {   
+    margin: 10px 0px 0px;
     text-align:center;
     color:white;
     Font-size:40px;
@@ -149,6 +179,7 @@ tr td
 }
 .Footer-Object2 > div
 {
+    margin: 10px 0px 0px;   
     text-align:center;
     color: white;
     font-size:40px;
