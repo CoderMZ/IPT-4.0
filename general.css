@@ -326,8 +326,72 @@ tr td
     margin-left: 385px;
     margin-top: 10px;
 }
-.Team-Container
+.main-team-container
 {
     display:flex;
-    
+    flex-wrap: wrap;
+    margin: 100px;
+    align-content: center;
 }
+.single-team-container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(140,50,50,1);
+    margin: 30px 20px;
+}
+.single-team-container img
+{
+    width: 300px; 
+}
+.team-text
+{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin: 7px 0px;
+}
+#visio
+{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#Product-Page-Container-Camille
+{
+    opacity: 1;
+    margin:100px;
+    width: 1000px;
+    height: 700px;
+    background-size:cover;
+    background-image: url("Pictures/Produkte/Alternative/Camille.jpg");
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#Center-Cont
+{
+    display: flex;
+    justify-content: center;
+}
+#Price
+{
+    color:white;
+    margin: 5px 20px 0px 20px;
+    font-size: 120px;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 4px 4px black;
+    transition-duration: 500ms;
+}
+#Desc
+{
+    color:white;
+    margin: 5px 20px 10px 20px;
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 4px 4px black;
+    transition-duration: 500ms;
+}
+
