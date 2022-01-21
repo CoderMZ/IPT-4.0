@@ -11,8 +11,6 @@ a
 }
 body
 {
-    border: black solid 5px;
-    border-top: black solid 3px;
     margin: 0px;
     background-color: grey;
     background-image: url("/Pictures/Red_Nebula_Expanded.jpg");
@@ -20,6 +18,7 @@ body
 div
 {
     font-family: Arial, Helvetica, sans-serif;
+    color:white;
 }
 .Layout-Flex
 {
@@ -247,4 +246,88 @@ tr td
 #white
 {
     color:white;
+}
+.Form-Container
+{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 1300px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    background-color: rgb(160, 0, 0);
+    outline: 20px solid rgb(220, 0, 0);
+}
+.Form-Title
+{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.Form-Flavor
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:white;
+    text-align: center;
+}
+
+.smallinput
+{
+    color: black;
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 500px;
+    font-size: 14px;
+    margin-left: 385px;
+}
+.biginput
+{
+    color: black;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    max-width: 500px;
+    max-height: 200px;
+    min-width: 500px;
+    min-height: 200px;
+    font-size: 14px;
+    height: 200px;
+    width: 500px;
+    margin-left: 385px;
+}
+#submit
+{
+    font-size: 20px;
+    padding:5px 15px; 
+    background:white; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 525px;
+    height: 50px;
+    margin-left: 385px;
+    margin-top: 10px;
+}
+.Team-Container
+{
+    display:flex;
+    
 }

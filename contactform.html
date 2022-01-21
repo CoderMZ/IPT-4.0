@@ -12,10 +12,24 @@
                     <img src="Pictures/Logo.png"/>
                 </div>
             </a>
-            <div Class="Navigation-Flex">
+            <div class="Navigation-Flex">
                 <a href="" class="NavigationItem">Produkte</a>
                 <a href="homepage.html" class="NavigationItem">Schuber Lampen AG</a>
                 <a href="" class="NavigationItem">Team</a>
+            </div>
+            <div class="Form-Container">
+                <div class="Form-Title">Kontaktformular</div>
+                <div class="Form-Flavor">Durch dieses Formular können sie mit ihren Anliegen direkt zu uns kommen.</div>
+                <form action="https://formlog.offline.ch/log" method="post">
+                    <label for="name"></label>
+                    <label for="email"></label>
+                    <label for="request"></label>
+                    <label for="submit"></label>
+                    <input name="name" class="smallinput" placeholder="Voller Name" id="name" type="text"/>
+                    <br/><br/><input name="email" class="smallinput" placeholder="E-Mail" id="email" type="email"/>
+                    <br/><br/><textarea name="request" maxlength="500" class="biginput" placeholder="Ihr Anliegen" id="request" type="text"></textarea>
+                    <br/><input id="submit" title="Submit" type="submit" name="submit"/>
+                </form>
             </div>
             <div class="Footer">
                 <div>
