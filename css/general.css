@@ -13,7 +13,7 @@ body
 {
     margin: 0px;
     background-color: grey;
-    background-image: url("/Pictures/Red_Nebula_Expanded.jpg");
+    background-image: url("/src/Red_Nebula_Expanded.jpg");
 }
 div
 {
@@ -30,7 +30,7 @@ div
     display: flex;
     width: 100%;
     height: 200px;
-    background-image: url(Pictures/Banner.png);
+    background-image: url("/src/Banner.png");
     background-size:100%;
     justify-content: center;
 }
@@ -229,7 +229,7 @@ tr td
     margin: 80px 60px;
     width: 400px;
     padding: 20px;
-    background-image: url("Pictures/Red_Galaxy.jpg");
+    background-image: url("src/Red_Galaxy.jpg");
     background-position: center;
 }
 .title-text
@@ -365,7 +365,7 @@ tr td
     width: 1000px;
     height: 700px;
     background-size:cover;
-    background-image: url("Pictures/Produkte/Alternative/Camille.jpg");
+    background-image: url("/src/Produkte/Alternative/Camille.jpg");
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
